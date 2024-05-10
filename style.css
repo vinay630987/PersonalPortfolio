@@ -9,6 +9,7 @@
   list-style-type: none;
   font-family: "Jost", sans-serif;
   font-weight: 400;
+  overflow: hidden;
 }
 
 html {
@@ -647,7 +648,7 @@ html {
   }
 
   .section-1-btn {
-    margin-left: -38rem;
+    margin-left: -37rem;
   }
 }
 
