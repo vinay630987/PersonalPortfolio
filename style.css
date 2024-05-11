@@ -499,6 +499,9 @@ html {
   .person-name span {
     margin-top: -5rem;
   }
+  .section-1-btn {
+    margin-left: -55rem;
+  }
 }
 @media (max-width: 1400px) {
   .section-1-btn {
@@ -546,13 +549,23 @@ html {
   }
 }
 
+@media (max-width: 1024px) {
+  .person-img {
+    margin-right: -40rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .section-1 {
     height: 95vh;
   }
 
   .person-img {
-    margin-right: -20rem;
+    margin-right: -45rem;
+  }
+
+  .person-container {
+    margin-top: -8rem;
   }
 }
 
@@ -562,7 +575,12 @@ html {
   }
 
   .person-img {
-    margin-left: -90rem;
+    margin-left: -75rem;
+    width: 30%;
+  }
+
+  .person-container {
+    margin-left: -2rem;
   }
 }
 
@@ -621,7 +639,7 @@ html {
 
 @media (max-width: 500px) {
   .section-1 {
-    height: 120vh;
+    height: 130vh;
     font-size: 30%;
   }
 
@@ -629,7 +647,7 @@ html {
     margin-top: -50rem;
   }
   .person-container {
-    top: 65%;
+    top: 80%;
     margin-left: -15rem;
   }
   .navbar-link {
