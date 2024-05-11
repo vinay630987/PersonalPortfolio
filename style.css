@@ -489,6 +489,19 @@ html {
 
 /* Responsive */
 
+@media (max-width: 1536px) {
+  .person-container {
+    width: 70%;
+  }
+  .person-name span {
+    margin-top: -5rem;
+  }
+
+  .section-5 {
+    padding: 10rem 0 30rem 0;
+  }
+}
+
 @media (max-width: 1524px) {
   .person-container {
     width: 70%;
