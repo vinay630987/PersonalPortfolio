@@ -9,7 +9,6 @@
   list-style-type: none;
   font-family: "Jost", sans-serif;
   font-weight: 400;
-  overflow: hidden;
 }
 
 html {
@@ -601,6 +600,7 @@ html {
 @media (max-width: 500px) {
   .section-1 {
     height: 120vh;
+    font-size: 30%;
   }
 
   .section-1-heading {
@@ -608,7 +608,7 @@ html {
   }
   .person-container {
     top: 65%;
-    margin-left: -10rem;
+    margin-left: -15rem;
   }
   .navbar-link {
     margin: 0 1.5rem;
@@ -638,17 +638,39 @@ html {
 
 @media (max-width: 400px) {
   .person-container {
-    margin-left: -15rem;
+    margin-left: -17rem;
+    font-size: 2rem;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 300px) {
+  .section-1-heading {
+    font-size: 2rem;
+  }
   .person-info {
-    width: 35rem;
+    width: 30rem;
+  }
+
+  .person-container {
+    margin-left: -14rem;
   }
 
   .section-1-btn {
-    margin-left: -37rem;
+    margin: 30rem 0 0 -32rem;
+  }
+
+  .contact-form {
+    width: 70%;
+  }
+  .progress-bar {
+    width: 190px;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+  .navbar-link {
+    font-size: 1rem;
   }
 }
 
