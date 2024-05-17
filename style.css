@@ -11,6 +11,11 @@
   font-weight: 400;
 }
 
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -635,7 +640,6 @@ html {
 
   .contact-form {
     width: 50rem;
-    height: 30rem;
   }
 
   .section-4-heading {
