@@ -502,7 +502,7 @@ body {
 
 @media (max-width: 1200px) {
   .section-1 {
-    height: 100vw;
+    height: 90vw;
   }
 
   .person-name {
@@ -510,7 +510,7 @@ body {
   }
 
   .person-img {
-    margin-left: -45rem;
+    margin-left: -50rem;
     width: 30rem;
     height: 30rem;
   }
@@ -537,7 +537,7 @@ body {
   }
 
   .person-container {
-    top: 45%;
+    top: 35%;
     width: 100rem;
   }
   .copyright {
@@ -571,7 +571,7 @@ body {
 
 @media (max-width: 600px) {
   .section-1-heading {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
 
   .navbar-link {
@@ -596,7 +596,7 @@ body {
   }
   .person-container {
     left: 14%;
-    margin-top: 18rem;
+    margin-top: 20rem;
   }
   .person-info {
     font-size: 1.8rem;
@@ -605,7 +605,11 @@ body {
 
 @media (max-width: 500px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
+  }
+
+  .section-1 {
+    height: 100vh;
   }
 }
 
