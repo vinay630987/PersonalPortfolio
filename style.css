@@ -11,14 +11,16 @@
   font-weight: 400;
 }
 
-body {
-  overflow-x: hidden;
-  margin: 0;
-}
-
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .center {
@@ -53,6 +55,7 @@ html {
   display: flex;
   flex-direction: column;
   opacity: 1;
+  position: relative;
 }
 
 .person-img {
