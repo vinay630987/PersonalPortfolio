@@ -11,19 +11,9 @@
   font-weight: 400;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-}
-body {
-  overflow-x: hidden;
-  margin: 0;
 }
 
 .center {
@@ -607,7 +597,7 @@ body {
 
 @media (max-width: 500px) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 }
 
@@ -616,7 +606,7 @@ body {
     font-size: 45%;
   }
   .section-1-heading {
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 0.8rem;
   }
   .navbar-link {
@@ -631,7 +621,7 @@ body {
   }
 
   .section-1 {
-    height: 100vh;
+    height: 90vh;
   }
 
   .person-container {
@@ -640,10 +630,19 @@ body {
   }
 
   .person-img {
-    margin-top: -4rem;
+    margin-top: -7rem;
   }
 
   .contact-form {
-    width: 40rem;
+    width: 50rem;
+    height: 30rem;
+  }
+
+  .section-4-heading {
+    margin-bottom: -8rem;
+  }
+
+  .section-5 {
+    height: 35rem;
   }
 }
