@@ -16,6 +16,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
 .center {
   display: flex;
   justify-content: center;
