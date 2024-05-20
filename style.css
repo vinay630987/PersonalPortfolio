@@ -135,6 +135,36 @@ body {
   display: flex;
 }
 
+.hire {
+  background-color: transparent;
+  padding: 0.6rem;
+  border: 0.1rem solid #fff;
+  border-radius: 20%;
+  position: absolute;
+  display: flex;
+  margin: 1.7rem 0 0 20rem;
+  font-size: 1.7rem;
+  color: #fff;
+  overflow: hidden;
+}
+
+.hire::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 5rem;
+  background-color: #d50000;
+  left: -20%;
+  transform: rotate(-50deg) translateX(-4rem);
+  transform-origin: left bottom;
+  opacity: 0.8;
+  transition: left 0.3s;
+}
+
+.hire:hover::before {
+  left: 140%;
+}
+
 .section-1-btn:hover {
   background-color: #e41c6f;
   color: #ccc;
@@ -166,6 +196,8 @@ body {
 
 .icon-container a:last-child {
   margin-right: 0; /* Remove margin from the last icon */
+  font-size: 1.9rem;
+  font-weight: bold;
 }
 
 .icon-container img {
@@ -502,7 +534,7 @@ body {
 
 @media (max-width: 1200px) {
   .section-1 {
-    height: 100vw;
+    height: 90vw;
   }
 
   .person-name {
@@ -510,7 +542,7 @@ body {
   }
 
   .person-img {
-    margin-left: -45rem;
+    margin-left: -50rem;
     width: 30rem;
     height: 30rem;
   }
@@ -537,7 +569,7 @@ body {
   }
 
   .person-container {
-    top: 45%;
+    top: 35%;
     width: 100rem;
   }
   .copyright {
@@ -571,7 +603,7 @@ body {
 
 @media (max-width: 600px) {
   .section-1-heading {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
 
   .navbar-link {
@@ -596,7 +628,7 @@ body {
   }
   .person-container {
     left: 14%;
-    margin-top: 18rem;
+    margin-top: 20rem;
   }
   .person-info {
     font-size: 1.8rem;
@@ -605,7 +637,11 @@ body {
 
 @media (max-width: 500px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
+  }
+
+  .section-1 {
+    height: 120vh;
   }
 }
 
