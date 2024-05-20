@@ -42,16 +42,24 @@ body {
 /* End of Common Styles */
 
 /* Section 1 */
+#bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  filter: brightness(
+    50%
+  ); /* Optional: darken the video for better text readability */
+}
 .section-1 {
   width: 100%;
   height: 100vh;
-  /*background: linear-gradient(
-          rgba(255, 255, 255, 0.2),
-          rgba(255, 255, 255, 0.5)
-        ),
-        url(images/pexels-danbuilds-633409.jpg) center no-repeat;
-      background-size: cover; */
-  background-color: #000;
   display: flex;
   flex-direction: column;
   opacity: 1;
@@ -261,14 +269,29 @@ body {
 /*End of Navabr */
 
 /* Section 2 */
+#bg-videoo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  filter: brightness(
+    50%
+  ); /* Optional: darken the video for better text readability */
+}
 .section-2 {
   width: 100%;
   height: 100%;
   padding: 15rem 0 10rem 0;
-  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .progress-bars-wrapper {
@@ -346,7 +369,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 10rem 0;
-  background-color: black;
+  background: linear-gradient(to top, #420c22, #000);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -433,7 +456,7 @@ body {
 .section-4 {
   width: 100%;
   height: 70vh;
-  background-color: #000;
+  background: linear-gradient(to bottom, #420c22, #000);
   display: flex;
   flex-direction: column;
   align-items: center;
