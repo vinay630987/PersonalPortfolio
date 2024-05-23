@@ -56,6 +56,7 @@ body {
   filter: brightness(
     50%
   ); /* Optional: darken the video for better text readability */
+  opacity:0.9;
 }
 .section-1 {
   width: 100%;
