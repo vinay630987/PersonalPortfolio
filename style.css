@@ -141,6 +141,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   display: flex;
+  padding: 0.2rem;
 }
 
 .hire {
@@ -175,7 +176,7 @@ body {
 
 .section-1-btn:hover {
   background-color: #e41c6f;
-  color: #ccc;
+  color: #fff;
 }
 
 .icon-container {
